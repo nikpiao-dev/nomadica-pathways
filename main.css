@@ -1,0 +1,698 @@
+/* ############# custom scrollbar ###########  */
+
+::-webkit-scrollbar  {
+    width: 0.30em;
+}
+::-webkit-scrollbar-track {
+    color: #d1e5ff;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to left, #65e2e9,#c682e5);
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+* {
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+.nav-container {
+    position: sticky;
+    height: 10vh;
+    height: 10dvh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#topNav {
+    background-color: #18181ce3;
+    overflow: hidden;
+}
+
+#topNav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.25em;
+    margin-left: 1.2em;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-style: oblique;
+}
+
+#topNav a:hover {
+    color: #5da6eb;
+}
+
+.nav-title {
+    font-family: 'MuseoModerno', sans-serif;;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.nav-container a {
+    text-decoration: none;
+}
+
+
+header {
+    height: 100vh;
+    height: 100dvh;
+
+    /* <!-- Photo by Trace Hudson: https://www.pexels.com/photo/photo-of-person-standing-across-the-mountain-2724664/ --> */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/background/pexels-trace-hudson-2724664.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.94;
+}
+
+.container,
+.memories,
+.discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content,
+.header-content a,
+.memories-content,
+.memories-content a,
+.discover-content,
+.discover-content a {
+    color: #fff;
+}
+
+.header-content a {
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.30em;
+    border: 2px solid #ef71c5;
+    border-radius: 4em;
+    margin: 2em 4em;
+    padding: 0.6em;
+}
+
+.header-content,
+.memories-content,
+.discover-content {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.header-content h1,
+.memories-content h2,
+.discover-content h2 {
+    font-size: 2rem;
+    letter-spacing: 0.4em;
+}
+
+.header-content p, 
+.memories-content p,
+.discover-content p {
+    font-size: 1.2em;
+    letter-spacing: 0.25em;
+}
+
+.header-content p, 
+.header-content a,
+.memories-content p,
+.discover-content p {
+    font-size: 1.2rem;
+    line-height: 2em;
+}
+
+#underline {
+    width: 10em;
+    height: 0.4em;
+    background: #76e3ed;
+    margin: 1.2em auto;
+    border-radius: 5px;
+}
+
+.line {
+    width: 8em;
+    height: 0.3em;
+    background: #c682e5;
+    margin: 0.8em auto;
+    border-radius: 4px;
+}
+
+/* hover effect -> text with linear-gradient */
+
+.header-content a:hover {
+    background: linear-gradient(180deg,#ef71c5, #76e3ed);
+    /* background-clip: text; */
+    color: #000;
+}
+
+.memories-content a:hover {
+    background: linear-gradient(180deg,#ef71c5, #76e3ed);
+    /* background-clip: text; */
+    color: #000;
+}
+
+.discover-content a:hover {
+    background: linear-gradient(180deg,#ef71c5, #76e3ed);
+    /* background-clip: text; */
+    color: #000;
+}
+
+/* .theme-toggle {
+    background: linear-gradient(to top, #76e3ed, #487dcd);
+    background-clip: text;
+    color:transparent;
+    border: transparent;
+    border-radius: 8px;
+} */
+
+
+/* memories */
+
+.memories {
+    height: 100vh;
+    height: 100dvh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('./images/background/pexels-valentine-kulikov-11035053.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.84;
+}
+
+.memories-content a {
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.30em;
+    border: 2px solid #ef71c5;
+    border-radius: 4em;
+    margin: 2em 4em;
+    padding: 1.2em;
+    font-size: 1.2em
+}
+
+
+/* Discover */
+
+.discover {
+    height: 100vh;
+    height: 100dvh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/background/pexels-photo-868097.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.76;
+    overflow: hidden;
+}
+
+.discover-content a {
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.30em;
+    border: 2px solid #ef71c5;
+    border-radius: 4em;
+    margin: 2em 4em;
+    padding: 1.2em;
+    font-size: 1.2em
+}
+
+
+/* Events section */
+
+.events {
+    height: 200vh;
+    height: 200dvh;
+
+    /* border: 2px solid green; */
+    overflow: hidden;
+}
+
+.events-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    height: 200dvh;
+    gap: 4em;
+
+    /* border: 2px solid red; */
+}
+
+.events-content-header {
+    padding: 0.25em 10em;
+    margin: 0.2em 1.5em;
+
+    /* border: 2px solid #c682e5; */
+}
+
+.events-content-header h2 {
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.events-content-image img {
+    width: 400px;
+    height: 250px;
+}
+
+.events-content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.events-content-info a {
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.30em;
+    font-size: 1.2em;
+    border: 2px solid #ef71c5;
+    padding: 14px;
+    margin: 20px auto;
+    border-radius: 2em;
+}
+
+.events-content-info h3 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.events-content-info p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1.2em;
+    color: #000;
+}
+
+.events-content-info a:hover {
+    background: linear-gradient(to right,#76e3ed 55%, #ef71c5);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* trend section */
+
+/* .trend {
+    height: 200vh; */
+    /* height: 200dvh; */
+
+    /* /* border: 2px solid red; */
+/* }  */
+
+.trend-content-header {
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.30em;
+    margin: 0.8em 1.8em;
+    padding: 0.8em;
+    color: #000;
+
+    /* border: 2px solid #ef71c5; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.2em;
+}
+
+.trend-content-header h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.trend-content p {
+    font-size: 1.4em;
+    padding: 1.2em 2em;
+    text-align: center;
+    color: #000;
+}
+
+.trend-content-body a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.2em;
+
+    letter-spacing: 0.30em;
+    margin: 2em auto;
+    padding: 1.2em 2em;
+    
+    border: 2px solid #ef71c5;
+    border-radius: 4em;
+}
+
+.trend-content-body a:hover {
+    background: linear-gradient(to right,#76e3ed 55%, #ef71c5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.trend-content-body-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5em;
+}
+
+.trend-content-body-images p {
+    vertical-align: middle;
+}
+
+.trend-content-body-images img {
+    width: 400px;
+    height: 200px;
+}
+
+.trend-content-body-footer {
+    display: flex;
+}
+
+
+/* subscribe section */
+
+.container-bottom {
+    /* height: 100vh;
+    height: 100dvh; */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.9));
+
+    /* border: 2px solid blue; */
+}
+
+.subscribe {
+    /* position: sticky; */
+    /* height: 15vh;
+
+    height: 15dvh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* overflow: hidden; */
+
+    /* border: 2px solid blue; */
+}
+
+.subscribe h2 {
+    font-size: 1.6em;
+    margin-top: 2em;
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+
+input[type="email"] {
+    width: 14em;
+    padding: 0.3em;
+    text-align: center;
+    letter-spacing: 0.18em;
+}
+input[type="submit"] {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: #cf99ff;
+    margin: 0.6em;
+    padding: 0.4em 0.8em;
+    border: none;
+    letter-spacing: 0.4em;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    color: #fff;
+    background-color: #ef71c5;
+    cursor: pointer;
+}
+
+
+/* Info section and icons */
+
+.subscribe {
+    padding: 1.2em;
+    margin: 2em;
+}
+
+.info {
+    padding: 2em;
+    /* margin: 4em; */
+}
+
+.info {
+    position: sticky;
+    /* height: 5vh;
+
+    height: 5dvh; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* border: 2px solid green; */
+}
+
+.info-content p {
+    font-size: 1.2em;
+}
+
+.info-content span {
+    font-style: italic;
+}
+
+.icons-content {
+    /* position: sticky; */
+    /* height: 15vh;
+    height: 15dvh; */
+    /* border: 2px solid yellow; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    margin: 0 2em;
+}
+
+.icons-content .icon-head {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.icons-content li {
+    margin: 0 0.8em;
+}
+
+.icons-content .icons li {
+    list-style: none;
+}
+
+.icons-content {
+    padding: 2em;
+}
+
+.icons-content .icons li .fa-brands {
+    color: #000;
+    font-size: 1.5em;
+    border: 1px solid #000;
+    padding: 0.4em;
+    border-radius: 50%;
+}
+
+.info-content .name {
+    font-weight: 800;
+    color: #158eff;
+}
+
+.info-content .name:hover {
+    color: #8b06ffd8;
+    cursor: pointer;
+}
+
+
+
+/* copyright */
+
+.copyright {
+    position: sticky;
+    /* height: 10vh;
+    height: 10dvh; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .9));
+
+    /* border: 2px solid red; */
+}
+
+.icons-content .icons a .fa-brands {
+    text-align: center;
+    color: #5da6eb;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.info-content span, p {
+    color: #fff;
+}
+.icons-content .icons a .fa-brands:hover {
+    background-color: #eadfdf;
+    color: #158eff;
+}
+.copyright a {
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: 800;
+    color: #158eff;
+}
+
+.copyright span {
+    font-weight: 800;
+    font-style: italic;
+    color: #158eff;
+}
+
+.copyright p {
+    color: #fff;
+}
+
+.copyright a:hover {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: #c878ed;
+    text-decoration-thickness: 0.4em;
+}
+
+
+/* media queries for laptop or desktop */
+@media (min-width:1025px) and (min-width:1281px)  {
+    .nav-title span {
+        font-size: 1.6rem;
+    }
+
+    #topNav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #topNav a {
+        font-size: 1.4rem;
+        padding: 0 1.2em;
+    }
+
+    #underline {
+        width: 9.5em;
+        height: 0.3em;
+        background: #76e3ed;
+        margin: 1.5em auto;
+        border-radius: 5px;
+    }
+
+    .events {
+        height: 100vh;
+        height: 100dvh;
+        /* border: 2px solid red; */
+    }
+    
+
+    .events-content {
+        height: 100vh;
+        height: 100dvh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        /* border: 2px solid blue; */
+    }
+
+    .events-content-image img {
+        border-radius: 10px;
+    }
+
+
+    .trend-content-header {
+        text-decoration: none;
+        font-weight: 800;
+        letter-spacing: 0.30em;
+        margin: 0 auto;
+        padding: 0 auto;
+        color: #000;
+    
+        /* border: 2px solid #ef71c5; */
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0.2em;
+    }
+    
+    .trend-content-header h2 {
+        font-size: 1.6em;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+    }
+    
+    .trend-content p {
+        font-size: 1.4em;
+        padding: 0 2em;
+        margin: 0 auto;
+        text-align: center;
+        color: #000;
+    }
+
+    .trend-content-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 2px solid blue; */
+    }
+
+    .trend-content-body-images img {
+        width: 275px;
+        border-radius: 10px;
+    }
+
+    .trend-content-body-images-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
