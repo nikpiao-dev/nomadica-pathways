@@ -7,10 +7,10 @@ Welcome to Wanderlust, a personal project created to showcase a travel blog. Thi
 Features
 
 Responsive Design: The website is designed to be responsive and accessible across various devices, ensuring a seamless experience for users regardless of their screen size.
-Dynamic Content: Engaging content including travel stories, destination guides, photo galleries, and travel tips are presented in an easy-to-navigate format.
+
 Customizable Styles: The CSS is structured in a modular and organized manner, making it easy to customize and extend the visual design to suit individual preferences.
+
 Interactive Elements: Enhance user engagement with interactive elements such as hover effects, animations, and clickable elements.
-SEO Optimized: Utilizes best practices for search engine optimization to improve visibility and accessibility.
 
 
 Technologies Used
@@ -19,16 +19,19 @@ CSS3
 
 Credits
 
-Unsplash: Images used in the project.
+Pexels: A special thanks for providing stunning images that bring destinations to life.
 Font Awesome: Icons used in the project.
 
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Author
+
 Nikki Piao
 
 Feedback
+
 If you have any feedback, questions, or suggestions, please feel free to open an issue or contact me. Your input is highly appreciated!
 
 Thank you for visiting Wanderlust - happy travels! ✈️🌍
