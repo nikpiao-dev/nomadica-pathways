@@ -1,4 +1,4 @@
-Project Name: Wanderlust - Travel Blog
+Project Name: Wanderlust - Travel Site
 
 Introduction
 
