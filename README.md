@@ -1,8 +1,8 @@
-Project Name: Wanderlust - Travel Site
+Project Name: Nomadica - Travel Site
 
 Introduction
 
-Welcome to Wanderlust, a personal project created to showcase a travel blog. This project combines HTML and CSS to create a visually appealing and interactive platform for sharing travel experiences and tips. Whether you're a seasoned traveler or an armchair adventurer, Wanderlust aims to inspire wanderlust in all who visit.
+Welcome to Nomadica, a personal project created to showcase a travel blog. This project combines HTML and CSS to create a visually appealing and interactive platform for sharing travel experiences and tips. Whether you're a seasoned traveler or an armchair adventurer, Wanderlust aims to inspire wanderlust in all who visit.
 
 Features
 
@@ -34,4 +34,4 @@ Feedback
 
 If you have any feedback, questions, or suggestions, please feel free to open an issue or contact me. Your input is highly appreciated!
 
-Thank you for visiting Wanderlust - happy travels! ✈️🌍
+Thank you for visiting Nomadica - happy travels! ✈️🌍
