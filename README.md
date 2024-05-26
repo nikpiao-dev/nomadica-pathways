@@ -34,4 +34,4 @@ Feedback
 
 If you have any feedback, questions, or suggestions, please feel free to open an issue or contact me. Your input is highly appreciated!
 
-Thank you for visiting Nomadica - happy travels! ✈️🌍
+Thank you for visiting Nomadica Pathways - happy travels! ✈️🌍
