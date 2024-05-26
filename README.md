@@ -1,4 +1,4 @@
-Project Name: Nomadica - Travel Site
+Project Name: Nomadica Pathways - Travel Site
 
 Introduction
 
