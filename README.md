@@ -1,6 +1,6 @@
 Project Name: Nomadica Pathways - Travel Site
 
-![Nomadica Pathway Demo](image-slider.gif)
+![Nomadica Pathway Demo](preview-nomadica.gif)
 
 Introduction
 
