@@ -1,5 +1,7 @@
 Project Name: Nomadica Pathways - Travel Site
 
+![Nomadica Pathway Demo](image-slider.gif)
+
 Introduction
 
 Welcome to Nomadica, a personal project created to showcase a travel blog. This project combines HTML and CSS to create a visually appealing and interactive platform for sharing travel experiences and tips. Whether you're a seasoned traveler or an armchair adventurer, Wanderlust aims to inspire wanderlust in all who visit.
